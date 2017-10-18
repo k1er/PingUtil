@@ -1,30 +1,30 @@
-Pod::Spec.new do |spec|
+Pod::s.new do |s|
 
-spec.name                  = 'SGExtension'
+s.name                  = 'SGExtension'
 
-spec.version               = '1.0.2'
+s.version               = '1.0.2'
 
-spec.ios.deployment_target = '8.0'
-spec.osx.deployment_target = "10.11"
+s.ios.deployment_target = '8.0'
+s.osx.deployment_target = "10.11"
 
-spec.license               = 'MIT'
+s.license               = 'MIT'
 
-spec.homepage              = 'https://github.com/k1er'
+s.homepage              = 'https://github.com/k1er'
 
-spec.author                = { "Rudy Yang" => "anke603@163.com" }
+s.author                = { "Rudy Yang" => "anke603@163.com" }
 
-spec.summary               = '各种工具的合集'
+s.summary               = '测试ping值的小工具'
 
-spec.source                = { :git => 'https://github.com/iOSSinger/SGExtension.git', :tag => spec.version }
+s.source                = { :git => 'https://github.com/k1er/PingUtil.git', :tag => s.version }
 
-spec.source_files          = "PingUtil/**/{*.h,*.m}"
+s.source_files          = "PingUtil/**/{*.h,*.m}"
 
-#spec.resources             = "SGExtension/source.bundle"
+#s.resources             = "SGExtension/source.bundle"
 
-spec.frameworks            = 'Foundation'
+s.frameworks            = 'Foundation'
 
-spec.library               = 'z'
+s.library               = 'z'
 
-spec.requires_arc          = true
+s.requires_arc          = true
 
 end
