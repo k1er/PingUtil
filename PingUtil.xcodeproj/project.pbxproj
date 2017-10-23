@@ -7,67 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61B031801F97493700115F00 /* PingUtil_maxOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0317E1F97493700115F00 /* PingUtil_maxOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61B0319C1F9749A200115F00 /* PingUtil_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0319A1F9749A200115F00 /* PingUtil_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61B031A21F9749FD00115F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B031A11F9749FD00115F00 /* Foundation.framework */; };
-		61B031A41F974A0700115F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B031A31F974A0600115F00 /* Foundation.framework */; };
-		61B031AB1F97557D00115F00 /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031871F97497F00115F00 /* PingManager.h */; };
-		61B031AC1F97557D00115F00 /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B031881F97497F00115F00 /* PingManager.m */; };
-		61B031AD1F97557D00115F00 /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031891F97497F00115F00 /* PingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61B031AE1F97557D00115F00 /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318A1F97497F00115F00 /* PingUtil.m */; };
-		61B031AF1F97557D00115F00 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0318B1F97497F00115F00 /* SimplePing.h */; };
-		61B031B01F97557D00115F00 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318C1F97497F00115F00 /* SimplePing.m */; };
-		61B031B11F97557D00115F00 /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031871F97497F00115F00 /* PingManager.h */; };
-		61B031B21F97557D00115F00 /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B031881F97497F00115F00 /* PingManager.m */; };
-		61B031B31F97557D00115F00 /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031891F97497F00115F00 /* PingUtil.h */; };
-		61B031B41F97557D00115F00 /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318A1F97497F00115F00 /* PingUtil.m */; };
-		61B031B51F97557D00115F00 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0318B1F97497F00115F00 /* SimplePing.h */; };
-		61B031B61F97557D00115F00 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318C1F97497F00115F00 /* SimplePing.m */; };
+		618518F41F9DD5830019B877 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 618518F31F9DD5820019B877 /* Info.plist */; };
+		618518F51F9DD6290019B877 /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031871F97497F00115F00 /* PingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618518F61F9DD62C0019B877 /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031891F97497F00115F00 /* PingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618518F71F9DD62F0019B877 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0318B1F97497F00115F00 /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618518F81F9DD6340019B877 /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B031881F97497F00115F00 /* PingManager.m */; };
+		618518F91F9DD6360019B877 /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318A1F97497F00115F00 /* PingUtil.m */; };
+		618518FA1F9DD6390019B877 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318C1F97497F00115F00 /* SimplePing.m */; };
+		618519081F9DD7220019B877 /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031871F97497F00115F00 /* PingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618519091F9DD72B0019B877 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0318B1F97497F00115F00 /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6185190A1F9DD72F0019B877 /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B031881F97497F00115F00 /* PingManager.m */; };
+		6185190B1F9DD7310019B877 /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318A1F97497F00115F00 /* PingUtil.m */; };
+		6185190C1F9DD7330019B877 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318C1F97497F00115F00 /* SimplePing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61B0317B1F97493700115F00 /* PingUtil_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PingUtil_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B0317E1F97493700115F00 /* PingUtil_maxOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingUtil_maxOS.h; sourceTree = "<group>"; };
-		61B0317F1F97493700115F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618518EA1F9DD4FA0019B877 /* PingUtil_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PingUtil_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		618518F31F9DD5820019B877 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618519001F9DD6F60019B877 /* PingUtil_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PingUtil_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B031871F97497F00115F00 /* PingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingManager.h; sourceTree = "<group>"; };
 		61B031881F97497F00115F00 /* PingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingManager.m; sourceTree = "<group>"; };
 		61B031891F97497F00115F00 /* PingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingUtil.h; sourceTree = "<group>"; };
 		61B0318A1F97497F00115F00 /* PingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingUtil.m; sourceTree = "<group>"; };
 		61B0318B1F97497F00115F00 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
 		61B0318C1F97497F00115F00 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
-		61B031981F9749A200115F00 /* PingUtil_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PingUtil_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B0319A1F9749A200115F00 /* PingUtil_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingUtil_iOS.h; sourceTree = "<group>"; };
-		61B0319B1F9749A200115F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61B031A11F9749FD00115F00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		61B031A31F974A0600115F00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61B031771F97493700115F00 /* Frameworks */ = {
+		618518E61F9DD4FA0019B877 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B031A21F9749FD00115F00 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61B031941F9749A200115F00 /* Frameworks */ = {
+		618518FC1F9DD6F60019B877 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B031A41F974A0700115F00 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		618518F21F9DD5820019B877 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				618518F31F9DD5820019B877 /* Info.plist */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 		61B031711F97493700115F00 = {
 			isa = PBXGroup;
 			children = (
+				618518F21F9DD5820019B877 /* Framework */,
 				61B031861F97497F00115F00 /* PingUtil */,
-				61B0317D1F97493700115F00 /* PingUtil maxOS */,
-				61B031991F9749A200115F00 /* PingUtil iOS */,
 				61B0317C1F97493700115F00 /* Products */,
 				61B031A01F9749FD00115F00 /* Frameworks */,
 			);
@@ -76,19 +74,10 @@
 		61B0317C1F97493700115F00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61B0317B1F97493700115F00 /* PingUtil_macOS.framework */,
-				61B031981F9749A200115F00 /* PingUtil_iOS.framework */,
+				618518EA1F9DD4FA0019B877 /* PingUtil_macOS.framework */,
+				618519001F9DD6F60019B877 /* PingUtil_iOS.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		61B0317D1F97493700115F00 /* PingUtil maxOS */ = {
-			isa = PBXGroup;
-			children = (
-				61B0317E1F97493700115F00 /* PingUtil_maxOS.h */,
-				61B0317F1F97493700115F00 /* Info.plist */,
-			);
-			path = "PingUtil maxOS";
 			sourceTree = "<group>";
 		};
 		61B031861F97497F00115F00 /* PingUtil */ = {
@@ -104,15 +93,6 @@
 			path = PingUtil;
 			sourceTree = "<group>";
 		};
-		61B031991F9749A200115F00 /* PingUtil iOS */ = {
-			isa = PBXGroup;
-			children = (
-				61B0319A1F9749A200115F00 /* PingUtil_iOS.h */,
-				61B0319B1F9749A200115F00 /* Info.plist */,
-			);
-			path = "PingUtil iOS";
-			sourceTree = "<group>";
-		};
 		61B031A01F9749FD00115F00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,57 +105,54 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		61B031781F97493700115F00 /* Headers */ = {
+		618518E71F9DD4FA0019B877 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B031AD1F97557D00115F00 /* PingUtil.h in Headers */,
-				61B031801F97493700115F00 /* PingUtil_maxOS.h in Headers */,
-				61B031AF1F97557D00115F00 /* SimplePing.h in Headers */,
-				61B031AB1F97557D00115F00 /* PingManager.h in Headers */,
+				618518F51F9DD6290019B877 /* PingManager.h in Headers */,
+				618518F61F9DD62C0019B877 /* PingUtil.h in Headers */,
+				618518F71F9DD62F0019B877 /* SimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61B031951F9749A200115F00 /* Headers */ = {
+		618518FD1F9DD6F60019B877 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B031B11F97557D00115F00 /* PingManager.h in Headers */,
-				61B031B31F97557D00115F00 /* PingUtil.h in Headers */,
-				61B031B51F97557D00115F00 /* SimplePing.h in Headers */,
-				61B0319C1F9749A200115F00 /* PingUtil_iOS.h in Headers */,
+				618519081F9DD7220019B877 /* PingManager.h in Headers */,
+				618519091F9DD72B0019B877 /* SimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		61B0317A1F97493700115F00 /* PingUtil macOS */ = {
+		618518E91F9DD4FA0019B877 /* PingUtil macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61B031831F97493700115F00 /* Build configuration list for PBXNativeTarget "PingUtil macOS" */;
+			buildConfigurationList = 618518EF1F9DD4FA0019B877 /* Build configuration list for PBXNativeTarget "PingUtil macOS" */;
 			buildPhases = (
-				61B031761F97493700115F00 /* Sources */,
-				61B031771F97493700115F00 /* Frameworks */,
-				61B031781F97493700115F00 /* Headers */,
-				61B031791F97493700115F00 /* Resources */,
+				618518E51F9DD4FA0019B877 /* Sources */,
+				618518E61F9DD4FA0019B877 /* Frameworks */,
+				618518E71F9DD4FA0019B877 /* Headers */,
+				618518E81F9DD4FA0019B877 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "PingUtil macOS";
-			productName = "PingUtil maxOS";
-			productReference = 61B0317B1F97493700115F00 /* PingUtil_macOS.framework */;
+			productName = "PingUtil macOS";
+			productReference = 618518EA1F9DD4FA0019B877 /* PingUtil_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		61B031971F9749A200115F00 /* PingUtil iOS */ = {
+		618518FF1F9DD6F60019B877 /* PingUtil iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61B0319D1F9749A200115F00 /* Build configuration list for PBXNativeTarget "PingUtil iOS" */;
+			buildConfigurationList = 618519051F9DD6F60019B877 /* Build configuration list for PBXNativeTarget "PingUtil iOS" */;
 			buildPhases = (
-				61B031931F9749A200115F00 /* Sources */,
-				61B031941F9749A200115F00 /* Frameworks */,
-				61B031951F9749A200115F00 /* Headers */,
-				61B031961F9749A200115F00 /* Resources */,
+				618518FB1F9DD6F60019B877 /* Sources */,
+				618518FC1F9DD6F60019B877 /* Frameworks */,
+				618518FD1F9DD6F60019B877 /* Headers */,
+				618518FE1F9DD6F60019B877 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +160,7 @@
 			);
 			name = "PingUtil iOS";
 			productName = "PingUtil iOS";
-			productReference = 61B031981F9749A200115F00 /* PingUtil_iOS.framework */;
+			productReference = 618519001F9DD6F60019B877 /* PingUtil_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -195,11 +172,11 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Rudy Yang";
 				TargetAttributes = {
-					61B0317A1F97493700115F00 = {
+					618518E91F9DD4FA0019B877 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					61B031971F9749A200115F00 = {
+					618518FF1F9DD6F60019B877 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -217,21 +194,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61B0317A1F97493700115F00 /* PingUtil macOS */,
-				61B031971F9749A200115F00 /* PingUtil iOS */,
+				618518E91F9DD4FA0019B877 /* PingUtil macOS */,
+				618518FF1F9DD6F60019B877 /* PingUtil iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61B031791F97493700115F00 /* Resources */ = {
+		618518E81F9DD4FA0019B877 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618518F41F9DD5830019B877 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61B031961F9749A200115F00 /* Resources */ = {
+		618518FE1F9DD6F60019B877 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,29 +219,114 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		61B031761F97493700115F00 /* Sources */ = {
+		618518E51F9DD4FA0019B877 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B031B01F97557D00115F00 /* SimplePing.m in Sources */,
-				61B031AC1F97557D00115F00 /* PingManager.m in Sources */,
-				61B031AE1F97557D00115F00 /* PingUtil.m in Sources */,
+				618518FA1F9DD6390019B877 /* SimplePing.m in Sources */,
+				618518F91F9DD6360019B877 /* PingUtil.m in Sources */,
+				618518F81F9DD6340019B877 /* PingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61B031931F9749A200115F00 /* Sources */ = {
+		618518FB1F9DD6F60019B877 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B031B61F97557D00115F00 /* SimplePing.m in Sources */,
-				61B031B21F97557D00115F00 /* PingManager.m in Sources */,
-				61B031B41F97557D00115F00 /* PingUtil.m in Sources */,
+				6185190A1F9DD72F0019B877 /* PingManager.m in Sources */,
+				6185190B1F9DD7310019B877 /* PingUtil.m in Sources */,
+				6185190C1F9DD7330019B877 /* SimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		618518F01F9DD4FA0019B877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtil;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		618518F11F9DD4FA0019B877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtil;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		618519061F9DD6F60019B877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtil;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618519071F9DD6F60019B877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtil;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		61B031811F97493700115F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,119 +436,32 @@
 			};
 			name = Release;
 		};
-		61B031841F97493700115F00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "PingUtil maxOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rudy.PingUtil-maxOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		61B031851F97493700115F00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "PingUtil maxOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rudy.PingUtil-maxOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		61B0319E1F9749A200115F00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "PingUtil iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rudy.PingUtil-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		61B0319F1F9749A200115F00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "PingUtil iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rudy.PingUtil-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		618518EF1F9DD4FA0019B877 /* Build configuration list for PBXNativeTarget "PingUtil macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618518F01F9DD4FA0019B877 /* Debug */,
+				618518F11F9DD4FA0019B877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618519051F9DD6F60019B877 /* Build configuration list for PBXNativeTarget "PingUtil iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618519061F9DD6F60019B877 /* Debug */,
+				618519071F9DD6F60019B877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		61B031751F97493700115F00 /* Build configuration list for PBXProject "PingUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61B031811F97493700115F00 /* Debug */,
 				61B031821F97493700115F00 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		61B031831F97493700115F00 /* Build configuration list for PBXNativeTarget "PingUtil macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61B031841F97493700115F00 /* Debug */,
-				61B031851F97493700115F00 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		61B0319D1F9749A200115F00 /* Build configuration list for PBXNativeTarget "PingUtil iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61B0319E1F9749A200115F00 /* Debug */,
-				61B0319F1F9749A200115F00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

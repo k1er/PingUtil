@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+FOUNDATION_EXPORT double PingUtil_maxOSVersionNumber;
+
+FOUNDATION_EXPORT const unsigned char PingUtil_maxOSVersionString[];
+
 @interface PingUtil : NSObject
 
 @property (strong, nonatomic) NSMutableDictionary *pingTimers;
