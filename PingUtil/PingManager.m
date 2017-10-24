@@ -174,9 +174,6 @@ static NSString * shortErrorFromError(NSError * error) {
     self.pinger.delegate = self;
     [self.pinger start];
     
-    do {
-        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
-    } while (self.pinger != nil);
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         if (self.pinger != nil) {
             [self close];
@@ -184,7 +181,11 @@ static NSString * shortErrorFromError(NSError * error) {
                 self.success(-1);
             }
         }
-    });
+    });    
+    
+    do {
+        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+    } while (self.pinger != nil);
 }
 
 /*! Sends a ping.
