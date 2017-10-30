@@ -8,31 +8,78 @@
 
 /* Begin PBXBuildFile section */
 		618518F41F9DD5830019B877 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 618518F31F9DD5820019B877 /* Info.plist */; };
-		618518F51F9DD6290019B877 /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031871F97497F00115F00 /* PingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618518F61F9DD62C0019B877 /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031891F97497F00115F00 /* PingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618518F71F9DD62F0019B877 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0318B1F97497F00115F00 /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618518F81F9DD6340019B877 /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B031881F97497F00115F00 /* PingManager.m */; };
-		618518F91F9DD6360019B877 /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318A1F97497F00115F00 /* PingUtil.m */; };
-		618518FA1F9DD6390019B877 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318C1F97497F00115F00 /* SimplePing.m */; };
-		618519081F9DD7220019B877 /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B031871F97497F00115F00 /* PingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618519091F9DD72B0019B877 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B0318B1F97497F00115F00 /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6185190A1F9DD72F0019B877 /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B031881F97497F00115F00 /* PingManager.m */; };
-		6185190B1F9DD7310019B877 /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318A1F97497F00115F00 /* PingUtil.m */; };
-		6185190C1F9DD7330019B877 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B0318C1F97497F00115F00 /* SimplePing.m */; };
+		61C0D51A1FA6F39A0039023D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D5191FA6F39A0039023D /* AppDelegate.m */; };
+		61C0D51D1FA6F39A0039023D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D51C1FA6F39A0039023D /* ViewController.m */; };
+		61C0D5201FA6F39A0039023D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C0D51E1FA6F39A0039023D /* Main.storyboard */; };
+		61C0D5221FA6F39A0039023D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C0D5211FA6F39A0039023D /* Assets.xcassets */; };
+		61C0D5251FA6F39A0039023D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C0D5231FA6F39A0039023D /* LaunchScreen.storyboard */; };
+		61C0D5281FA6F39A0039023D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D5271FA6F39A0039023D /* main.m */; };
+		61C0D5341FA6F3F20039023D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D5331FA6F3F20039023D /* AppDelegate.m */; };
+		61C0D5371FA6F3F20039023D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D5361FA6F3F20039023D /* ViewController.m */; };
+		61C0D5391FA6F3F20039023D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C0D5381FA6F3F20039023D /* Assets.xcassets */; };
+		61C0D53C1FA6F3F20039023D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C0D53A1FA6F3F20039023D /* Main.storyboard */; };
+		61C0D53F1FA6F3F20039023D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D53E1FA6F3F20039023D /* main.m */; };
+		61C0D5521FA6F5510039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
+		61C0D5531FA6F5510039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
+		61C0D5541FA6F5510039023D /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D54E1FA6F5510039023D /* SimplePing.h */; };
+		61C0D5551FA6F5510039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
+		61C0D5561FA6F5510039023D /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5501FA6F5510039023D /* PingManager.h */; };
+		61C0D5571FA6F5510039023D /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5511FA6F5510039023D /* PingUtil.h */; };
+		61C0D5591FA6F5540039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
+		61C0D55A1FA6F5550039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
+		61C0D55C1FA6F55E0039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
+		61C0D55D1FA6F55E0039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
+		61C0D5621FA6F5690039023D /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5501FA6F5510039023D /* PingManager.h */; };
+		61C0D5631FA6F5690039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
+		61C0D5641FA6F5690039023D /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5511FA6F5510039023D /* PingUtil.h */; };
+		61C0D5651FA6F5690039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
+		61C0D5661FA6F5690039023D /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D54E1FA6F5510039023D /* SimplePing.h */; };
+		61C0D5671FA6F5690039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
+		61C0D5681FA6F56F0039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
+		61C0D5691FA6F56F0039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
+		61C0D56B1FA6F8990039023D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D51C1FA6F39A0039023D /* ViewController.m */; };
+		61C0D5741FA6FD9B0039023D /* Host.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D56D1FA6F8A60039023D /* Host.m */; };
+		61C0D5751FA6FD9B0039023D /* Host.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D56D1FA6F8A60039023D /* Host.m */; };
+		61C0D5761FA6FD9F0039023D /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D5711FA6FB970039023D /* NSArray+Ext.m */; };
+		61C0D5771FA6FD9F0039023D /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D5711FA6FB970039023D /* NSArray+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		618518EA1F9DD4FA0019B877 /* PingUtil_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PingUtil_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		618518F31F9DD5820019B877 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		618519001F9DD6F60019B877 /* PingUtil_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PingUtil_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B031871F97497F00115F00 /* PingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingManager.h; sourceTree = "<group>"; };
-		61B031881F97497F00115F00 /* PingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingManager.m; sourceTree = "<group>"; };
-		61B031891F97497F00115F00 /* PingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingUtil.h; sourceTree = "<group>"; };
-		61B0318A1F97497F00115F00 /* PingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingUtil.m; sourceTree = "<group>"; };
-		61B0318B1F97497F00115F00 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
-		61B0318C1F97497F00115F00 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 		61B031A11F9749FD00115F00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		61B031A31F974A0600115F00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61C0D5161FA6F39A0039023D /* PingUtilDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingUtilDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C0D5181FA6F39A0039023D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61C0D5191FA6F39A0039023D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61C0D51B1FA6F39A0039023D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61C0D51C1FA6F39A0039023D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61C0D51F1FA6F39A0039023D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61C0D5211FA6F39A0039023D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61C0D5241FA6F39A0039023D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61C0D5261FA6F39A0039023D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C0D5271FA6F39A0039023D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61C0D5301FA6F3F20039023D /* PingUtilDemoMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingUtilDemoMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C0D5321FA6F3F20039023D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61C0D5331FA6F3F20039023D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61C0D5351FA6F3F20039023D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61C0D5361FA6F3F20039023D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61C0D5381FA6F3F20039023D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61C0D53B1FA6F3F20039023D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61C0D53D1FA6F3F20039023D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C0D53E1FA6F3F20039023D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61C0D5401FA6F3F20039023D /* PingUtilDemoMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PingUtilDemoMacOS.entitlements; sourceTree = "<group>"; };
+		61C0D54C1FA6F5510039023D /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		61C0D54D1FA6F5510039023D /* PingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingUtil.m; sourceTree = "<group>"; };
+		61C0D54E1FA6F5510039023D /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		61C0D54F1FA6F5510039023D /* PingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingManager.m; sourceTree = "<group>"; };
+		61C0D5501FA6F5510039023D /* PingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingManager.h; sourceTree = "<group>"; };
+		61C0D5511FA6F5510039023D /* PingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingUtil.h; sourceTree = "<group>"; };
+		61C0D56C1FA6F8A60039023D /* Host.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Host.h; sourceTree = "<group>"; };
+		61C0D56D1FA6F8A60039023D /* Host.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Host.m; sourceTree = "<group>"; };
+		61C0D5701FA6FB970039023D /* NSArray+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
+		61C0D5711FA6FB970039023D /* NSArray+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +91,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		618518FC1F9DD6F60019B877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C0D5131FA6F39A0039023D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C0D52D1FA6F3F20039023D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,8 +125,11 @@
 		61B031711F97493700115F00 = {
 			isa = PBXGroup;
 			children = (
+				61C0D56A1FA6F8930039023D /* Public */,
 				618518F21F9DD5820019B877 /* Framework */,
 				61B031861F97497F00115F00 /* PingUtil */,
+				61C0D5171FA6F39A0039023D /* PingUtilDemoiOS */,
+				61C0D5311FA6F3F20039023D /* PingUtilDemoMacOS */,
 				61B0317C1F97493700115F00 /* Products */,
 				61B031A01F9749FD00115F00 /* Frameworks */,
 			);
@@ -76,6 +140,8 @@
 			children = (
 				618518EA1F9DD4FA0019B877 /* PingUtil_macOS.framework */,
 				618519001F9DD6F60019B877 /* PingUtil_iOS.framework */,
+				61C0D5161FA6F39A0039023D /* PingUtilDemoiOS.app */,
+				61C0D5301FA6F3F20039023D /* PingUtilDemoMacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,12 +149,12 @@
 		61B031861F97497F00115F00 /* PingUtil */ = {
 			isa = PBXGroup;
 			children = (
-				61B031871F97497F00115F00 /* PingManager.h */,
-				61B031881F97497F00115F00 /* PingManager.m */,
-				61B031891F97497F00115F00 /* PingUtil.h */,
-				61B0318A1F97497F00115F00 /* PingUtil.m */,
-				61B0318B1F97497F00115F00 /* SimplePing.h */,
-				61B0318C1F97497F00115F00 /* SimplePing.m */,
+				61C0D5501FA6F5510039023D /* PingManager.h */,
+				61C0D54F1FA6F5510039023D /* PingManager.m */,
+				61C0D5511FA6F5510039023D /* PingUtil.h */,
+				61C0D54D1FA6F5510039023D /* PingUtil.m */,
+				61C0D54E1FA6F5510039023D /* SimplePing.h */,
+				61C0D54C1FA6F5510039023D /* SimplePing.m */,
 			);
 			path = PingUtil;
 			sourceTree = "<group>";
@@ -102,6 +168,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		61C0D5171FA6F39A0039023D /* PingUtilDemoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				61C0D5181FA6F39A0039023D /* AppDelegate.h */,
+				61C0D5191FA6F39A0039023D /* AppDelegate.m */,
+				61C0D51B1FA6F39A0039023D /* ViewController.h */,
+				61C0D51C1FA6F39A0039023D /* ViewController.m */,
+				61C0D51E1FA6F39A0039023D /* Main.storyboard */,
+				61C0D5211FA6F39A0039023D /* Assets.xcassets */,
+				61C0D5231FA6F39A0039023D /* LaunchScreen.storyboard */,
+				61C0D5261FA6F39A0039023D /* Info.plist */,
+				61C0D5271FA6F39A0039023D /* main.m */,
+			);
+			path = PingUtilDemoiOS;
+			sourceTree = "<group>";
+		};
+		61C0D5311FA6F3F20039023D /* PingUtilDemoMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				61C0D5321FA6F3F20039023D /* AppDelegate.h */,
+				61C0D5331FA6F3F20039023D /* AppDelegate.m */,
+				61C0D5351FA6F3F20039023D /* ViewController.h */,
+				61C0D5361FA6F3F20039023D /* ViewController.m */,
+				61C0D5381FA6F3F20039023D /* Assets.xcassets */,
+				61C0D53A1FA6F3F20039023D /* Main.storyboard */,
+				61C0D53D1FA6F3F20039023D /* Info.plist */,
+				61C0D53E1FA6F3F20039023D /* main.m */,
+				61C0D5401FA6F3F20039023D /* PingUtilDemoMacOS.entitlements */,
+			);
+			path = PingUtilDemoMacOS;
+			sourceTree = "<group>";
+		};
+		61C0D56A1FA6F8930039023D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				61C0D56C1FA6F8A60039023D /* Host.h */,
+				61C0D56D1FA6F8A60039023D /* Host.m */,
+				61C0D5701FA6FB970039023D /* NSArray+Ext.h */,
+				61C0D5711FA6FB970039023D /* NSArray+Ext.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,9 +218,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618518F51F9DD6290019B877 /* PingManager.h in Headers */,
-				618518F61F9DD62C0019B877 /* PingUtil.h in Headers */,
-				618518F71F9DD62F0019B877 /* SimplePing.h in Headers */,
+				61C0D5561FA6F5510039023D /* PingManager.h in Headers */,
+				61C0D5571FA6F5510039023D /* PingUtil.h in Headers */,
+				61C0D5541FA6F5510039023D /* SimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +228,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618519081F9DD7220019B877 /* PingManager.h in Headers */,
-				618519091F9DD72B0019B877 /* SimplePing.h in Headers */,
+				61C0D5641FA6F5690039023D /* PingUtil.h in Headers */,
+				61C0D5621FA6F5690039023D /* PingManager.h in Headers */,
+				61C0D5661FA6F5690039023D /* SimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +273,40 @@
 			productReference = 618519001F9DD6F60019B877 /* PingUtil_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		61C0D5151FA6F39A0039023D /* PingUtilDemoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C0D52B1FA6F39A0039023D /* Build configuration list for PBXNativeTarget "PingUtilDemoiOS" */;
+			buildPhases = (
+				61C0D5121FA6F39A0039023D /* Sources */,
+				61C0D5131FA6F39A0039023D /* Frameworks */,
+				61C0D5141FA6F39A0039023D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingUtilDemoiOS;
+			productName = PingUtilDemoiOS;
+			productReference = 61C0D5161FA6F39A0039023D /* PingUtilDemoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61C0D52F1FA6F3F20039023D /* PingUtilDemoMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C0D5411FA6F3F20039023D /* Build configuration list for PBXNativeTarget "PingUtilDemoMacOS" */;
+			buildPhases = (
+				61C0D52C1FA6F3F20039023D /* Sources */,
+				61C0D52D1FA6F3F20039023D /* Frameworks */,
+				61C0D52E1FA6F3F20039023D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingUtilDemoMacOS;
+			productName = PingUtilDemoMacOS;
+			productReference = 61C0D5301FA6F3F20039023D /* PingUtilDemoMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,6 +324,14 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					61C0D5151FA6F39A0039023D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					61C0D52F1FA6F3F20039023D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 61B031751F97493700115F00 /* Build configuration list for PBXProject "PingUtil" */;
@@ -188,6 +340,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 61B031711F97493700115F00;
 			productRefGroup = 61B0317C1F97493700115F00 /* Products */;
@@ -196,6 +349,8 @@
 			targets = (
 				618518E91F9DD4FA0019B877 /* PingUtil macOS */,
 				618518FF1F9DD6F60019B877 /* PingUtil iOS */,
+				61C0D5151FA6F39A0039023D /* PingUtilDemoiOS */,
+				61C0D52F1FA6F3F20039023D /* PingUtilDemoMacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -216,6 +371,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61C0D5141FA6F39A0039023D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C0D5251FA6F39A0039023D /* LaunchScreen.storyboard in Resources */,
+				61C0D5221FA6F39A0039023D /* Assets.xcassets in Resources */,
+				61C0D5201FA6F39A0039023D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C0D52E1FA6F3F20039023D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C0D5391FA6F3F20039023D /* Assets.xcassets in Resources */,
+				61C0D53C1FA6F3F20039023D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -223,9 +397,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618518FA1F9DD6390019B877 /* SimplePing.m in Sources */,
-				618518F91F9DD6360019B877 /* PingUtil.m in Sources */,
-				618518F81F9DD6340019B877 /* PingManager.m in Sources */,
+				61C0D5521FA6F5510039023D /* SimplePing.m in Sources */,
+				61C0D5531FA6F5510039023D /* PingUtil.m in Sources */,
+				61C0D5551FA6F5510039023D /* PingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,13 +407,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6185190A1F9DD72F0019B877 /* PingManager.m in Sources */,
-				6185190B1F9DD7310019B877 /* PingUtil.m in Sources */,
-				6185190C1F9DD7330019B877 /* SimplePing.m in Sources */,
+				61C0D5671FA6F5690039023D /* SimplePing.m in Sources */,
+				61C0D5631FA6F5690039023D /* PingManager.m in Sources */,
+				61C0D5651FA6F5690039023D /* PingUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C0D5121FA6F39A0039023D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C0D5741FA6FD9B0039023D /* Host.m in Sources */,
+				61C0D51D1FA6F39A0039023D /* ViewController.m in Sources */,
+				61C0D5281FA6F39A0039023D /* main.m in Sources */,
+				61C0D51A1FA6F39A0039023D /* AppDelegate.m in Sources */,
+				61C0D5761FA6FD9F0039023D /* NSArray+Ext.m in Sources */,
+				61C0D55C1FA6F55E0039023D /* PingUtil.m in Sources */,
+				61C0D5591FA6F5540039023D /* SimplePing.m in Sources */,
+				61C0D5691FA6F56F0039023D /* PingManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C0D52C1FA6F3F20039023D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C0D5771FA6FD9F0039023D /* NSArray+Ext.m in Sources */,
+				61C0D56B1FA6F8990039023D /* ViewController.m in Sources */,
+				61C0D5371FA6F3F20039023D /* ViewController.m in Sources */,
+				61C0D53F1FA6F3F20039023D /* main.m in Sources */,
+				61C0D5341FA6F3F20039023D /* AppDelegate.m in Sources */,
+				61C0D55D1FA6F55E0039023D /* PingUtil.m in Sources */,
+				61C0D55A1FA6F5550039023D /* SimplePing.m in Sources */,
+				61C0D5681FA6F56F0039023D /* PingManager.m in Sources */,
+				61C0D5751FA6FD9B0039023D /* Host.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61C0D51E1FA6F39A0039023D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C0D51F1FA6F39A0039023D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61C0D5231FA6F39A0039023D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C0D5241FA6F39A0039023D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		61C0D53A1FA6F3F20039023D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C0D53B1FA6F3F20039023D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		618518F01F9DD4FA0019B877 /* Debug */ = {
@@ -436,6 +668,67 @@
 			};
 			name = Release;
 		};
+		61C0D5291FA6F39A0039023D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PingUtilDemoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtilDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61C0D52A1FA6F39A0039023D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PingUtilDemoiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtilDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61C0D5421FA6F3F20039023D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PingUtilDemoMacOS/PingUtilDemoMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PingUtilDemoMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtilDemoMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61C0D5431FA6F3F20039023D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PingUtilDemoMacOS/PingUtilDemoMacOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PingUtilDemoMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudy.PingUtilDemoMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,6 +755,24 @@
 			buildConfigurations = (
 				61B031811F97493700115F00 /* Debug */,
 				61B031821F97493700115F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C0D52B1FA6F39A0039023D /* Build configuration list for PBXNativeTarget "PingUtilDemoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C0D5291FA6F39A0039023D /* Debug */,
+				61C0D52A1FA6F39A0039023D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C0D5411FA6F3F20039023D /* Build configuration list for PBXNativeTarget "PingUtilDemoMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C0D5421FA6F3F20039023D /* Debug */,
+				61C0D5431FA6F3F20039023D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
