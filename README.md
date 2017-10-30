@@ -1,7 +1,5 @@
-<p align="center" >
-  <alt="PingUtil" title="PingUtil">
-</p>
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/XYPingUtil.svg)](https://img.shields.io/cocoapods/v/XYPingUtil.svg)
+## PingUtil
+[![CocoaPods](https://img.shields.io/cocoapods/v/XYPingUtil.svg)]()
 
 PingUtil is a simple ping util.
 
