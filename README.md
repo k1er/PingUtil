@@ -1,7 +1,7 @@
 ## PingUtil
 [![CocoaPods](https://img.shields.io/cocoapods/v/XYPingUtil.svg)]()
 
-PingUtil is a simple ping util.
+PingUtil is a simple ping util for iOS/macOS.
 
 ## How To Get Started
 
