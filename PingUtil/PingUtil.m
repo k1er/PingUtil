@@ -7,30 +7,46 @@
 //
 
 #import "PingUtil.h"
-#import "PingManager.h"
+#import "PingHelper.h"
+
+@interface PingUtil ()
+
+@property (strong, nonatomic) NSMutableArray *pingTaskList;
+
+@property (strong, nonatomic) PingHelper *pingHelper;
+
+@end
 
 @implementation PingUtil
 
-+ (void)pingHost:(NSString *)host success:(void(^)(NSInteger msCount))success failure:(void(^)(void))failure {
-    [self pingHosts:@[host] success:^(NSArray<NSNumber *> *msCounts) {
-        success([msCounts.firstObject integerValue]);
++ (instancetype)sharePingUtil {
+    static PingUtil *pingUtil = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (!pingUtil) {
+            pingUtil = [[PingUtil alloc] init];
+            pingUtil.pingTaskList = @[].mutableCopy;
+        }
+    });
+    return pingUtil;
+}
+
++ (void)pingHost:(NSString *)host
+ timeoutInterval:(NSTimeInterval)timeoutInterval
+         success:(void(^)(NSInteger delayMs))success
+         failure:(void(^)(void))failure {
+    PingHelper *pingHelper = [[PingHelper alloc] initWithHost:host timeoutInterval:timeoutInterval>0 ?: 1];
+    NSMutableArray *list = [PingUtil sharePingUtil].pingTaskList;
+    [list addObject:pingHelper];
+    
+    __weak __typeof(pingHelper) weakPingHeler = pingHelper;
+    [pingHelper pingSuccess:^(NSUInteger delay) {
+        [list removeObject:weakPingHeler];
+        success(delay);
     } failure:^{
+        [list removeObject:weakPingHeler];
         failure();
     }];
 }
-
-+ (void)pingHosts:(NSArray<NSString *> *)hosts success:(void(^)(NSArray<NSNumber *>* msCounts))success failure:(void(^)(void))failure {
-    NSMutableArray *msCounts = @[].mutableCopy;
-    for (NSString *host in hosts) {
-        PingManager *pingManager = [[PingManager alloc] init];
-        [pingManager pingHost:host success:^(NSInteger msCount) {
-            [msCounts addObject:@(msCount)];
-        } failure:^{
-            
-        }];
-    }
-    success(msCounts);
-}
-
 
 @end

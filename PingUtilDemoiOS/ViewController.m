@@ -33,19 +33,15 @@
 }
 
 - (void)refreshPing {
-    NSArray *ipList = [self.hostList map:^NSString *(Host *host) {
-        return host.ip;
-    }];
-    
-    [PingUtil pingHosts:ipList success:^(NSArray<NSNumber *> *msCounts) {
-        [self.hostList map:^id(Host *host) {
-            host.ping = [msCounts[[self.hostList indexOfObject:host]] integerValue];
-            return host;
+    for (Host *host in self.hostList) {
+        [PingUtil pingHost:host.ip timeoutInterval:1 success:^(NSInteger delayMs) {
+            host.ping = delayMs;
+            [self.tableView reloadData];
+        } failure:^{
+            [self.tableView reloadData];
         }];
-        [self.tableView reloadData];
-    } failure:^{
-        
-    }];
+        break;
+    }
 }
 
 #pragma mark UITableViewDelegate, UITableViewDataSource
