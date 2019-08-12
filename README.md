@@ -16,17 +16,11 @@ pod 'XYPingUtil'
 
 ## Api
 ```
-NSArray *ipList = @[@"google.com", @"baidu.com", @"119.28.87.227"];
-   
-[PingUtil pingHost:@"google.com" success:^(NSInteger msCount) {
-        
-} failure:^{
-        
-}];   
-   
-[PingUtil pingHosts:ipList success:^(NSArray<NSNumber *> *msCounts) {
-       
-} failure:^{
-        
-}];
+[PingUtil pingHost:@"google.com"
+    timeoutInterval:0.05
+            success:^(NSInteger delayMs) {
+                     
+            } failure:^{
+                     
+            }];
 ```

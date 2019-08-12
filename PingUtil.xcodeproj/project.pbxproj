@@ -28,21 +28,15 @@
 		61C0D5521FA6F5510039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
 		61C0D5531FA6F5510039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
 		61C0D5541FA6F5510039023D /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D54E1FA6F5510039023D /* SimplePing.h */; };
-		61C0D5551FA6F5510039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
-		61C0D5561FA6F5510039023D /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5501FA6F5510039023D /* PingManager.h */; };
 		61C0D5571FA6F5510039023D /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5511FA6F5510039023D /* PingUtil.h */; };
 		61C0D5591FA6F5540039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
 		61C0D55A1FA6F5550039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
 		61C0D55C1FA6F55E0039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
 		61C0D55D1FA6F55E0039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
-		61C0D5621FA6F5690039023D /* PingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5501FA6F5510039023D /* PingManager.h */; };
-		61C0D5631FA6F5690039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
 		61C0D5641FA6F5690039023D /* PingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D5511FA6F5510039023D /* PingUtil.h */; };
 		61C0D5651FA6F5690039023D /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54D1FA6F5510039023D /* PingUtil.m */; };
 		61C0D5661FA6F5690039023D /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C0D54E1FA6F5510039023D /* SimplePing.h */; };
 		61C0D5671FA6F5690039023D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54C1FA6F5510039023D /* SimplePing.m */; };
-		61C0D5681FA6F56F0039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
-		61C0D5691FA6F56F0039023D /* PingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D54F1FA6F5510039023D /* PingManager.m */; };
 		61C0D5741FA6FD9B0039023D /* Host.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D56D1FA6F8A60039023D /* Host.m */; };
 		61C0D5751FA6FD9B0039023D /* Host.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D56D1FA6F8A60039023D /* Host.m */; };
 		61C0D5761FA6FD9F0039023D /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C0D5711FA6FB970039023D /* NSArray+Ext.m */; };
@@ -80,8 +74,6 @@
 		61C0D54C1FA6F5510039023D /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
 		61C0D54D1FA6F5510039023D /* PingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingUtil.m; sourceTree = "<group>"; };
 		61C0D54E1FA6F5510039023D /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
-		61C0D54F1FA6F5510039023D /* PingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingManager.m; sourceTree = "<group>"; };
-		61C0D5501FA6F5510039023D /* PingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingManager.h; sourceTree = "<group>"; };
 		61C0D5511FA6F5510039023D /* PingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingUtil.h; sourceTree = "<group>"; };
 		61C0D56C1FA6F8A60039023D /* Host.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Host.h; sourceTree = "<group>"; };
 		61C0D56D1FA6F8A60039023D /* Host.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Host.m; sourceTree = "<group>"; };
@@ -156,8 +148,6 @@
 		61B031861F97497F00115F00 /* PingUtil */ = {
 			isa = PBXGroup;
 			children = (
-				61C0D5501FA6F5510039023D /* PingManager.h */,
-				61C0D54F1FA6F5510039023D /* PingManager.m */,
 				61C0D5511FA6F5510039023D /* PingUtil.h */,
 				61C0D54D1FA6F5510039023D /* PingUtil.m */,
 				61C0D54E1FA6F5510039023D /* SimplePing.h */,
@@ -228,7 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0454A48B22FD15B8004C9DF7 /* PingHelper.h in Headers */,
-				61C0D5561FA6F5510039023D /* PingManager.h in Headers */,
 				61C0D5571FA6F5510039023D /* PingUtil.h in Headers */,
 				61C0D5541FA6F5510039023D /* SimplePing.h in Headers */,
 			);
@@ -240,7 +229,6 @@
 			files = (
 				0454A48D22FD1E8A004C9DF7 /* PingHelper.h in Headers */,
 				61C0D5641FA6F5690039023D /* PingUtil.h in Headers */,
-				61C0D5621FA6F5690039023D /* PingManager.h in Headers */,
 				61C0D5661FA6F5690039023D /* SimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +399,6 @@
 				61C0D5521FA6F5510039023D /* SimplePing.m in Sources */,
 				0454A48C22FD15B8004C9DF7 /* PingHelper.m in Sources */,
 				61C0D5531FA6F5510039023D /* PingUtil.m in Sources */,
-				61C0D5551FA6F5510039023D /* PingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +408,6 @@
 			files = (
 				61C0D5671FA6F5690039023D /* SimplePing.m in Sources */,
 				0454A48E22FD1E8A004C9DF7 /* PingHelper.m in Sources */,
-				61C0D5631FA6F5690039023D /* PingManager.m in Sources */,
 				61C0D5651FA6F5690039023D /* PingUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +424,6 @@
 				61C0D5761FA6FD9F0039023D /* NSArray+Ext.m in Sources */,
 				61C0D55C1FA6F55E0039023D /* PingUtil.m in Sources */,
 				61C0D5591FA6F5540039023D /* SimplePing.m in Sources */,
-				61C0D5691FA6F56F0039023D /* PingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +437,6 @@
 				61C0D5341FA6F3F20039023D /* AppDelegate.m in Sources */,
 				61C0D55D1FA6F55E0039023D /* PingUtil.m in Sources */,
 				61C0D55A1FA6F5550039023D /* SimplePing.m in Sources */,
-				61C0D5681FA6F56F0039023D /* PingManager.m in Sources */,
 				61C0D5751FA6FD9B0039023D /* Host.m in Sources */,
 				0454A48F22FD1F93004C9DF7 /* PingHelper.m in Sources */,
 			);
