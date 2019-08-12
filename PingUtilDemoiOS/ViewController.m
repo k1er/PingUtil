@@ -34,13 +34,13 @@
 
 - (void)refreshPing {
     for (Host *host in self.hostList) {
-        [PingUtil pingHost:host.ip timeoutInterval:1 success:^(NSInteger delayMs) {
+        [PingUtil pingHost:host.ip timeoutInterval:0.05 success:^(NSInteger delayMs) {
             host.ping = delayMs;
             [self.tableView reloadData];
         } failure:^{
             [self.tableView reloadData];
         }];
-        break;
+//        break;
     }
 }
 

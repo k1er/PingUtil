@@ -13,8 +13,6 @@
 
 @property (strong, nonatomic) NSMutableArray *pingTaskList;
 
-@property (strong, nonatomic) PingHelper *pingHelper;
-
 @end
 
 @implementation PingUtil
@@ -35,10 +33,10 @@
  timeoutInterval:(NSTimeInterval)timeoutInterval
          success:(void(^)(NSInteger delayMs))success
          failure:(void(^)(void))failure {
-    PingHelper *pingHelper = [[PingHelper alloc] initWithHost:host timeoutInterval:timeoutInterval>0 ?: 1];
+    PingHelper *pingHelper = [[PingHelper alloc] initWithHost:host timeoutInterval:timeoutInterval > 0 ? timeoutInterval : 1];
     NSMutableArray *list = [PingUtil sharePingUtil].pingTaskList;
     [list addObject:pingHelper];
-    
+
     __weak __typeof(pingHelper) weakPingHeler = pingHelper;
     [pingHelper pingSuccess:^(NSUInteger delay) {
         [list removeObject:weakPingHeler];

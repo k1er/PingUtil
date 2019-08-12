@@ -27,7 +27,10 @@
     
     Host *host3 = [[Host alloc] init];
     host3.ip = @"fl-us-ping.vultr.com";
-    return @[host1, host2, host3];
+    
+    Host *host4 = [[Host alloc] init];
+    host4.ip = @"vps.rudyyang.com";
+    return @[host1, host2, host3, host4];
 }
 
 @end
