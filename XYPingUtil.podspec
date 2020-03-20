@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.name                  = 'XYPingUtil'
 
-s.version               = '0.1'
+s.version               = '0.1.1'
 
 s.ios.deployment_target = '8.0'
 s.osx.deployment_target = "10.11"
