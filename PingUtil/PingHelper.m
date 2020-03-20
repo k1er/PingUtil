@@ -52,11 +52,7 @@
         [self endTime];
     });
     
-    [self.pinger start];
-    
-    do {
-        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
-    } while (self.pinger != nil);
+    [self.pinger start];    
 }
 
 #pragma mark - Finishing and timing out
